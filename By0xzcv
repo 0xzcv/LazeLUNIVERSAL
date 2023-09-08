@@ -1,0 +1,229 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "LazeL---UNIVERSAL", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+OrionLib:MakeNotification({
+	Name = "LazeL",
+	Content = "Thank You For Using LazeL",
+	Image = "rbxassetid://4483345998",
+	Time = 7
+})
+
+
+OrionLib:MakeNotification({
+	Name = "LazeL",
+	Content = "Join Our Discord For Any Help!",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Welcome!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddLabel("Welcome!")
+
+
+Tab:AddLabel("Here, We Provide Universal Scripts And popular ones too!")
+
+
+Tab:AddLabel("Join Our Discord at https://discord.gg/njAF2TQvHF")
+
+
+local Tab = Window:MakeTab({
+	Name = "Anti AFK",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddLabel("Made for simulator games so Roblox doesn't Kick you out in 20 mins")
+
+
+Tab:AddButton({
+	Name = "Anti AFK",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/9QCyuc2p'),true))()
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Combat",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "HitBox Expanded UNIVERSAL!(May Not Work In Some Games)",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/TgWmJEaC'),true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Tracers+ESP",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/DnEjnnqD", true))()
+  	end    
+})
+
+
+Tab:AddLabel("You can zoom out a lot(Camera)")
+
+
+Tab:AddButton({
+	Name = "Infinite Zoom",
+	Callback = function()
+        game.Players.User.CameraMaxZoomDistance = 500
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Invisiblity",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/MXYxy6DF", true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Inf Jump",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/3ceHVPL1'),true))()
+  	end    
+})
+
+
+Tab:AddBind({
+	Name = "Speed GUI",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/JptQThMn", true))()
+	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Visual",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Headless + Korblox",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Headless But U can see face",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ShCeRfbe", true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Animation Changer",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/h4CbmhTt'))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Tower Of Hell",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Tower Of Hell GUI",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/TowerOfHell/main/OpenSource.lua"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Tower Of Hell GUI (Also OP)",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/XytWN0E7"))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Thunder Client",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DuhwahScripts/ArsenalBoltsHub/main/source"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "V.G Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Punch Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Perfectus Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/PerfectusMim/dbevo/main/asfasfasfasf'))()
+  	end    
+})
+
+OrionLib:Init()
